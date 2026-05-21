@@ -117,6 +117,32 @@ ticket-support-management-system
 
 ---
 
+# Demo Database Setup
+
+Run the following SQL script in SQL Server Management Studio:
+
+```sql
+database/setup-demo-database.sql
+```
+
+This script automatically creates:
+
+- TicketSystemAuthDemoDb
+- TicketSystemDemoDb
+- Demo authentication user
+- Demo support users
+- Demo tickets
+- Demo activity history
+- Demo transfer logs
+- Demo email thread records
+
+## Demo Login
+
+```text
+Username: demo
+Password: Demo123!
+```
+
 # Setup
 
 ## 1. Clone Repository
@@ -137,12 +163,20 @@ Update appsettings.json files:
 }
 ```
 
+If your SQL Server instance is different, update:
+
+- localhost
+- .\SQLEXPRESS
+- (localdb)\MSSQLLocalDB
+
 ---
 
-## 3. Apply Database Migrations
+## 3. Run Demo Database Script
 
-```bash
-dotnet ef database update
+Execute:
+
+```sql
+database/setup-demo-database.sql
 ```
 
 ---
