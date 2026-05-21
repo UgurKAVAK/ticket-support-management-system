@@ -104,20 +104,16 @@ ticket-support-management-system
 # Screenshots
 
 ## Dashboard
-
-> screenshots/dashboard.png
+![Dashboard](screenshots/dashboard.png)
 
 ## Ticket List
-
-> screenshots/ticket-list.png
+![Ticket List](screenshots/ticket-list.png)
 
 ## Ticket Detail
-
-> screenshots/ticket-detail.png
+![Ticket Detail](screenshots/ticket-detail.png)
 
 ## Reports
-
-> screenshots/reports.png
+![Reports](screenshots/reports.png)
 
 ---
 
